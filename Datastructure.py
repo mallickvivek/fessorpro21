@@ -1,5 +1,4 @@
 
-
 #list
 a=[1,2,3,'amzn','goog','tsla']
 print(a)
@@ -26,3 +25,8 @@ d.append('p')
 print(d)
 d.insert(0,'hello')
 
+#d[1]='0'
+print(d)
+
+d=d.replace('e','o')
+print(d)
